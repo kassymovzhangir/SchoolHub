@@ -1,0 +1,76 @@
+header{
+    background:linear-gradient(135deg,#4facfe, #00f2fe);
+    height:356px;
+    padding:60px 60px;
+    animation: work 1.4s ease-in-out infinite;
+}
+@keyframes work{
+    34%{
+        background: linear-gradient(135deg,#00f2fe, #4facfe);
+    }
+}
+body{
+    background:linear-gradient(135deg, #eef2f7, #dbe4f0);
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color:white;
+}
+nav ul li{
+    display: inline;
+    color:#4facfe;
+    font-size:34px;
+    margin:18px;
+}
+ol li{
+    font-size:27px;
+    margin: 12px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background:white;
+    box-shadow: 0 40px 12px rgba(0,0,0,0.05);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:43px;
+    padding:134px;
+}
+.persons{
+    box-shadow: inset 12px 13px  rgba(0,0,0,0.05);
+    height:525px;
+    width:445px;
+    border-radius: 45px;
+    box-shadow: 0 14px 30px rgba(0,0,0,0.08);
+    background-color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background:linear-gradient(135deg,rgb(59, 141, 248),aqua);
+    height:356px;
+    width:1796px;
+    border-radius: 43px;
+    padding-top:65px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-2{
+    background-color: white;
+    height:145px;
+    padding-top:55px;
+}
+a{
+    text-decoration: none;
+    color:rgb(59, 141, 248);
+}

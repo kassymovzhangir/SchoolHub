@@ -1,0 +1,115 @@
+header{
+    background:linear-gradient(135deg,#4facfe, #00f2fe);
+    height:356px;
+    padding:60px 60px;
+    animation: work 4s ease-in-out infinite;
+}
+@keyframes work{
+    34%{
+        background: linear-gradient(135deg,#00f2fe, #4facfe);
+    }
+}
+body{
+    background:linear-gradient(135deg, #eef2f7, #dbe4f0);
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color:white;
+}
+nav ul li{
+    display: inline;
+    color:#4facfe;
+    font-size:34px;
+    margin:18px;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background:white;
+    box-shadow: 0 40px 12px rgba(0,0,0,0.05);
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:34px;
+    padding-top: 34px;
+}
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    height:356px;
+    width:396px;
+}
+.marks-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    margin-left: 24px;
+    font-size: 27px;
+}
+button{
+    background-color: #4facfe;
+    height: 54px;
+    width: 266px;
+    border-radius: 99px;
+    border: none;
+    color:white;
+    font-size: 23px;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-2{
+    background-color: white;
+    height:145px;
+    padding-top:55px;
+    width:100%;
+}
+.performance{
+    position: fixed;
+    inset: 0;
+    left:0;
+    right:0;
+    background: linear-gradient(135deg,rgba(10, 25, 47, 0.95),rgba(15, 60, 70, 0.95));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+}
+.performance-students{
+    background-color: white;
+    height: 389px;
+    width:678px;
+    padding: 6px 18px;
+    border-radius: 45px;
+    padding-top:34px;
+}
+h2{
+    margin-left: 45px;
+    font-size: 24px;
+}
+ .close{
+    background: linear-gradient(135deg, #1b6f7a, #134e57);
+    color: #fff ;
+    border-radius: 12px;
+    font-size: 23px;
+    font-weight: 600;
+    width:30%;
+    height:45px;
+    border:none;
+    cursor: pointer;
+    margin-left: 23px;
+ }

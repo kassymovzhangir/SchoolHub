@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для родителей</title>
+    <link rel="stylesheet" href="parents.css">
+<link rel="website icon" href="image.png">
+<script src="evalution.js"></script>
+</head>
+<body>
+    <header>
+    <h1 style="font-size:53px;font-weight:900">Раздел для родителей</h1>
+    <p style="color:white;text-align: center;font-size:43px;font-weight: 600;">Контроль обучения и связь со школой</p>
+    </header>
+        <nav>
+        <ul>
+            <a href="plat.html"><li>Главная</li></a>
+            <a href="students.html"><li >Ученикам</li></a>
+            <a href="teacher.html"><li>Учителям</li></a>
+            <a href="parents.html"><li style="color:#043865">Родителям</li></a>
+            <a href="support.html"><li>Поддержка</li></a>
+            </ul>
+        </nav><br><br>
+        <div class="container">
+            <div class="performance">
+            <h2>📊 Успеваемость ребёнка</h2>
+        <p>Просмотр оценок и общего прогресса обучения.</p>
+        <ol>
+            <li>Текущие оценки по предметам</li>
+            <li>Средний балл</li>
+            <li>Комментарии учителей</li>
+        </ol>
+        <button class="btn"onclick="marks()">Смотреть оценки</button>
+            </div>
+        </div>
+        <div class="marks"id="marks">
+            <div class="marks-content">
+                <button class="submit"onclick="closeMarks()">Закрыть</button>
+                <h2 style="text-align: center;">Оценки ученика</h2>
+                <table>
+                    <tr>
+                        <th>Предмет</th>
+                        <th>Оценка</th>
+                    </tr>
+                    <tr>
+                        <th>Русский-язык</th>
+                        <th>4</th>
+                    </tr>
+                    <tr>
+                        <th>Математика</th>
+                        <th>4</th>
+                    </tr>
+                    <tr>
+                        <th>Английский</th>
+                        <th>5</th>
+                    </tr>
+                    <tr>
+                        <th>Химия</th>
+                        <th>4</th>
+                    </tr>
+                </table>
+                <p>Средний балл: <strong>4.7</strong></p>
+            </div>
+        </div>
+        <footer><br><br>
+        <div class="footer-2">
+            <h2 style="text-align: center;color:rgb(90, 90, 90)">© 2026 SchoolHub — современная школьная платформа</h2>
+        </div>
+        </footer>
+</body>
+</html>
